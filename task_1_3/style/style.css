@@ -1,0 +1,62 @@
+
+*{
+    margin:0;
+}
+body{
+    padding:20px;
+}
+.container,.left-team,.center-introduce,.right-members{
+    padding: 20px;
+    border:1px #999 solid;
+}
+
+
+
+.container{
+    background: #eee;
+    border:1px #999 solid;
+    overflow: auto;
+    zoom:1;
+    clear: both;
+}
+
+.center{
+    float: left;
+    width:100%;
+}
+
+.center-introduce{
+    margin:0 140px 0 220px;
+    background-color: #fff;
+}
+
+.left-team{
+    float:left;
+    margin-left: -100%;
+    width:158px;
+    background-color: #fff;
+}
+.left-team img{
+    width:80px;
+    height: 80px;
+}
+
+.left-team h1{
+    float: right;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.right-members{
+    float:left;
+    width:78px;  /*120-20-20-1-1*/
+    margin-left: -120px;
+    
+    background-color: #fff;
+}
+
+
+.right-members img{
+    width: 80px;
+    height:80px;
+}
