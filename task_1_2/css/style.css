@@ -1,0 +1,138 @@
+body,ul,h1,article,nav{
+    margin:0;
+    padding: 0;
+}
+
+body{
+     background-color: #dedede;
+     font-family:"Microsoft Yahei";
+}
+
+/*头部样式*/
+.header{
+    background-color: #444;
+    height:80px;
+}
+.header-ul{
+    float: right;
+    margin-top: 22px;
+}
+.header-ul li{
+    float:left;
+    margin-right: 30px;
+
+}
+
+.header-ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.7em;
+}
+.header-ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+/*中间主体文章部分样式*/
+#pictures,aside,main article{
+    background-color: #fff;
+    padding: 25px;
+    margin: 25px 25px 0 25px;
+}
+
+main article .firstline{
+    text-indent: 2em;
+} 
+
+main article .article-message,h2{
+    color: #666;
+    font-size: 20px;
+}
+
+
+
+.article1-ul{
+    list-style: none;
+}
+
+/*图片部分样式*/
+
+figure{
+    border:1px solid #999;
+    width:400px;
+    text-align: center;
+    padding: 20px;
+}
+figure img{
+    margin-top: 20px;
+}
+
+/*最后一篇文章表格样式*/
+#article3 ol{
+    font-weight: bold;
+}
+
+#article3 table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#article3 table thead{
+    background-color: #333;
+    color: #fff;
+}
+
+
+#article3 tfoot {
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+th,td{
+    border:1px solid #ccc;
+    padding: 5px;
+}
+
+/*侧栏样式*/
+.title {
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+    margin-right: 1em;
+    margin-top: 0.7em;
+}
+.hint {
+    color: #999;
+    font-size: 0.7em;
+}
+.form-block {
+    display: inline-block;
+    vertical-align: text-top;
+}
+textarea {
+    vertical-align: text-top;
+    width: 60%;
+    height: 10em;
+}
+
+.form-submit{
+    width:100%;
+    margin-top:10px;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #35d;
+    border-radius: 10px;
+    color:#fff;
+}
+
+/*页脚*/
+footer{
+    background-color: #000;
+    text-align: center;
+    height:70px;
+}
+footer p{
+    color: white;
+    padding:25px; 
+}
