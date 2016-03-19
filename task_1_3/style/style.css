@@ -1,6 +1,7 @@
 
 *{
     margin:0;
+    padding: 0;
 }
 body{
     padding:20px;
@@ -59,4 +60,8 @@ body{
 .right-members img{
     width: 80px;
     height:80px;
+    margin-bottom: 20px;
+}
+.right-members img:last-child{
+    margin-bottom: 0;
 }
