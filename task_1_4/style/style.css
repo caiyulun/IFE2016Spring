@@ -1,0 +1,33 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.parent{
+    height: 200px;
+    width: 400px;
+    background-color: #ccc;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -200px;
+    margin-top: -100px;
+}
+
+.circle{
+    background-color: #fc0;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+.lt{
+    
+    border-radius: 0 0 50px 0;
+}
+
+.rb{
+    border-radius: 50px 0 0 0 ;
+    right: 0;
+    bottom: 0;
+}
