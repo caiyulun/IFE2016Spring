@@ -71,15 +71,18 @@ main article .article-message,h2{
 }
 
 /*图片部分样式*/
-
+#pictures{
+    overflow: hidden;
+}
 figure{
     border:1px solid #999;
-    width:400px;
+    width:300px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    float: left;
 }
 figure img{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 /*最后一篇文章表格样式*/
